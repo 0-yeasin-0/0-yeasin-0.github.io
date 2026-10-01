@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Connect with me</title>
+<style>
+:root{--bg1:#0f172a;--bg2:#1e1b4b;--card:rgba(255,255,255,.08);--text:#f8fafc;--sub:#cbd5e1}
+*{box-sizing:border-box;margin:0}
+html,body{min-height:100%}
+body{font-family:system-ui,-apple-system,"Segoe UI","Nirmala UI",Roboto,sans-serif;color:var(--text);background:linear-gradient(160deg,var(--bg1),var(--bg2));display:flex;justify-content:center;padding:48px 20px}
+main{width:100%;max-width:420px;text-align:center}
+.avatar{width:110px;height:110px;object-fit:cover;display:block;border:3px solid rgba(255,255,255,.25);border-radius:50%;margin:0 auto 16px;display:flex;align-items:center;justify-content:center;font-size:40px;background:linear-gradient(135deg,#f43f5e,#8b5cf6,#3b82f6);box-shadow:0 8px 24px rgba(0,0,0,.35)}
+h1{font-size:1.6rem}
+p.sub{color:var(--sub);margin:6px 0 28px}
+a.btn{display:flex;align-items:center;gap:14px;padding:14px 18px;margin-bottom:14px;border-radius:14px;background:var(--card);border:1px solid rgba(255,255,255,.14);color:var(--text);text-decoration:none;font-weight:600;font-size:1.02rem;transition:transform .15s,background .15s}
+a.btn:hover,a.btn:focus-visible{transform:translateY(-2px);background:rgba(255,255,255,.16)}
+.ic{width:40px;height:40px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-weight:800;color:#fff;flex:none}
+.ig{background:linear-gradient(45deg,#f9a825,#e1306c,#833ab4)}
+.fb{background:#1877f2}
+.wa{background:#25d366}
+.ml{background:#ea4335}
+.sc{background:#fffc00;color:#000}
+.arrow{margin-left:auto;opacity:.6}
+footer{margin-top:24px;font-size:.8rem;color:var(--sub)}
+</style>
+</head>
+<body>
+<main>
+  <!-- ====== এই অংশে নাম, আইকন আর বায়ো বদলাও ====== -->
+  <!-- ছবি: photo.jpg ফাইলটা index.html এর পাশে রাখো। ছবি না পেলে 😊 দেখাবে -->
+  <img class="avatar" src="photo.jpg" alt="Profile photo" onerror="this.outerHTML='<div class=&quot;avatar&quot;>😊</div>'">
+  <h1>MD YEASIN</h1>
+  <p class="sub">Assalamu Alaikum Wa Rahmatullahi Wa Barakatuh. I am a student at the American International University-Bangladesh (AIUB), pursuing a Bachelor of Social Science (BSS) in Economics। যেমন: Student | Gamer | Traveler</p>
+  <!-- ====== এডিট শেষ ====== -->
+
+  <a class="btn" href="https://www.instagram.com/0__.foysal.__0" target="_blank" rel="noopener">
+    <span class="ic ig">IG</span>Instagram<span class="arrow">&rsaquo;</span></a>
+
+  <a class="btn" href="https://www.facebook.com/share/19PsSyDVrc/" target="_blank" rel="noopener">
+    <span class="ic fb">f</span>Facebook<span class="arrow">&rsaquo;</span></a>
+
+  <a class="btn" href="https://wa.me/8801883569920" target="_blank" rel="noopener">
+    <span class="ic wa">WA</span>WhatsApp<span class="arrow">&rsaquo;</span></a>
+
+  <a class="btn" href="https://snapchat.com/t/BTZMMjNN" target="_blank" rel="noopener">
+    <span class="ic sc">&#128123;</span>Snapchat<span class="arrow">&rsaquo;</span></a>
+
+  <a class="btn" href="https://mail.google.com/mail/?view=cm&fs=1&to=mohammadyeasin204@gmail.com" target="_blank" rel="noopener">
+    <span class="ic ml">&#9993;</span><span>Email<br><small style="font-weight:400;opacity:.75">mohammadyeasin204@gmail.com</small></span><span class="arrow">&rsaquo;</span></a>
+
+  <footer>Scan &amp; connect</footer>
+</main>
+</body>
+</html>
